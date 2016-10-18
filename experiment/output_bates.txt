@@ -1,0 +1,90 @@
+root database nosql postgresql mongodb# redis others.csv	0.923284363391	0.976892976055	0.948428575041
+root database nosql postgresql# mongodb.csv	0.931441595442	0.983612040134	0.95655888744
+root database nosql redis# others.csv	0.762260869565	1.0	0.859140594628
+root database nosql sql# others influxdb.csv	0.893572517263	1.0	0.943629840554
+root database nosql# sql.csv	0.91087152807	0.975687822497	0.942066958656
+root database others# influxdb.csv	0.927472527473	0.955897435897	0.940111995284
+root database sql mysql# oracle mariadb others.csv	0.833749257279	0.90851981352	0.865281844026
+root database sql oracle mariadb# others.csv	0.872934472934	1.0	0.931425370148
+root database sql oracle# mariadb.csv	0.92	0.941818181818	0.928112177677
+root development delivery jenkins# others.csv	0.836656346749	1.0	0.904574314574
+root development others# versioncontrol testing delivery.csv	0.918748537623	0.986872302183	0.95146649624
+root development testing others# motd.csv	0.924615384615	0.973949579832	0.947826871253
+root development versioncontrol git# others.csv	0.962108262108	1.0	0.980531261561
+root development versioncontrol testing# delivery.csv	0.932329705467	0.988	0.958932553182
+root development versioncontrol# testing.csv	0.927873167489	0.992857142857	0.959179311916
+root distribute cloud aws# ec2.csv	0.729362034669	0.917023809524	0.812140080475
+root distribute cloud others openstack# aws ec2.csv	0.854775126834	0.97222575704	0.909108994781
+root distribute cloud others# openstack.csv	0.969230769231	0.923648493214	0.941606260056
+root distribute cloud# clustering messaging others.csv	0.937630802869	0.958560715727	0.947511904642
+root distribute clustering consul# zookeeper.csv	1.0	1.0	1.0
+root distribute clustering others# consul zookeeper.csv	0.961556064073	0.95	0.953796969116
+root distribute clustering# messaging others.csv	0.870695970696	1.0	0.93011777696
+root distribute messaging others# rabbitmq.csv	0.852777777778	0.920454545455	0.866666666667
+root distribute virtualization# packaging logging.csv	0.954590378846	0.973062946063	0.963701887281
+root distribute# virtualization.csv	0.930726890171	0.971063052414	0.949798397996
+root logging elasticsearch others# logstash kibana logrotate rsyslog.csv	0.931683810376	0.864002297395	0.893299710449
+root logging elasticsearch# others.csv	0.846182854183	0.988235294118	0.905762146756
+root logging logrotate# rsyslog.csv	0.888095238095	0.971428571429	0.92658008658
+root logging logstash kibana# logrotate rsyslog.csv	0.928091753448	0.977124183007	0.951151698895
+root logging logstash# kibana.csv	0.952147852148	0.981818181818	0.966410774411
+root packaging repository others apt# yum.csv	0.776600428599	0.987200689061	0.867038879631
+root packaging repository others# apt.csv	0.946571428571	0.964259259259	0.95471957435
+root packaging repository# others.csv	0.875533199195	1.0	0.933026037788
+root packaging# logging.csv	0.982197802198	0.94427817164	0.962726016866
+root runtime database# distribute virtualization packaging logging.csv	0.93110183793	0.962692282907	0.946537523659
+root runtime go# others.csv	0.904615384615	0.977777777778	0.930235294118
+root runtime java nodejs# python go others.csv	0.879528557878	0.975097227146	0.924036811017
+root runtime java# nodejs.csv	0.971235521236	0.980724789916	0.975507034803
+root runtime php ruby# java nodejs python go others.csv	0.962452557239	0.988341319308	0.975177374021
+root runtime php# ruby.csv	0.953678077636	0.99375	0.973217111105
+root runtime python# go others.csv	0.883997873472	0.942089068826	0.909719978372
+root runtime ruby others# rails.csv	0.911764705882	0.99375	0.949963343109
+root runtime# database.csv	0.918892160311	0.972042484132	0.944706157977
+root server cms drupal# wordpress others.csv	0.951428571429	0.840734265734	0.883359345968
+root server cms wordpress# others.csv	0.95	1.0	0.973333333333
+root server email others# postfix.csv	0.843706293706	0.745238095238	0.78007624759
+root server email# cms.csv	0.95	1.0	0.973571613572
+root server others# email cms.csv	0.964341803124	0.960600674624	0.962355900662
+root server webserver cache# varnish.csv	0.930555555556	0.926984126984	0.926837606838
+root server webserver others tomcat# cache varnish.csv	0.937651835373	0.993548387097	0.964291315847
+root server webserver others# tomcat.csv	0.98	0.849706959707	0.908683982684
+root server webserver proxy apache# others tomcat cache varnish.csv	0.86453978229	0.997777777778	0.925210266865
+root server webserver proxy nginx# others haproxy.csv	0.805579906174	1.0	0.890760028232
+root server webserver proxy others# haproxy.csv	0.952777777778	0.912777777778	0.930555555556
+root server webserver proxy# apache.csv	0.856585381501	0.990233316178	0.918366126389
+root server webserver# others email cms.csv	0.832574447222	0.988330329031	0.903041115827
+root server# development.csv	0.867635495925	0.953950643407	0.90858079078
+root system file editor vim# others.csv	0.813492063492	0.967532467532	0.881042486925
+root system file editor# nfs.csv	0.907486631016	0.985714285714	0.944043153646
+root system file others# editor nfs.csv	0.927204178969	0.977142857143	0.950765731513
+root system monitoring others# zabbix graphite nagios.csv	0.882472883714	0.995237420269	0.935249475725
+root system monitoring zabbix graphite# nagios.csv	0.830107869142	1.0	0.905322169894
+root system monitoring zabbix# graphite.csv	0.876071428571	0.963562753036	0.910387586545
+root system networking dns firewall# vpn.csv	0.867654261705	1.0	0.928460824871
+root system networking dns others# bind.csv	0.785873775347	0.986666666667	0.872110456321
+root system networking dns# firewall.csv	0.93644338118	0.93358974359	0.933822337866
+root system networking firewall others# iptables.csv	0.745604395604	0.820512820513	0.780305620306
+root system networking others# dns firewall vpn.csv	0.872901710011	0.931177017305	0.899278025707
+root system others networking monitoring# security file utility time authentication.csv	0.891031270356	0.961687950592	0.924949488188
+root system others networking# monitoring.csv	0.894715248933	0.988043238238	0.938984565434
+root system others# networking.csv	0.852636658295	0.930413413781	0.889515287994
+root system security file# utility time authentication.csv	0.905063022126	0.980105105079	0.940763287814
+root system security ssh others# openssh.csv	0.857089966485	0.993103448276	0.919208230111
+root system security ssh others# ssl sudo.csv	0.85909202477	0.996875	0.922513268411
+root system security ssh# others.csv	0.775848484848	0.979956896552	0.863983296472
+root system security ssl# sudo.csv	0.955555555556	0.923076923077	0.932913043478
+root system security# file.csv	0.905532489917	0.974577802832	0.93839732731
+root system server development# runtime database distribute virtualization packaging logging.csv	0.89848986141	0.943171261431	0.920268387099
+root system time cron# others.csv	0.852380952381	0.938095238095	0.881351981352
+root system time ntp timezone# cron others.csv	0.80024306843	0.990909090909	0.884110155499
+root system time ntp# timezone.csv	0.864502923977	0.95730994152	0.899216684217
+root system time# authentication.csv	0.85121131909	0.994871794872	0.915581605592
+root system utility others backup# supervisor bash.csv	0.905484395272	1.0	0.95035661011
+root system utility others# backup.csv	0.85525609731	0.992857142857	0.917500390076
+root system utility supervisor# bash.csv	0.883232323232	1.0	0.93560371517
+root system utility# time authentication.csv	0.95204356715	0.93590307468	0.943764709482
+root system# server development.csv	0.862157213464	0.950430096054	0.904123043959
+root virtualization container docker# others.csv	0.967070707071	1.0	0.983211213491
+root virtualization container# others vagrant.csv	0.888761346181	0.985895656068	0.932549246126
+root virtualization others# vagrant.csv	0.926696832579	0.9875	0.951124144673

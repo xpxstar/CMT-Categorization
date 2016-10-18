@@ -1,0 +1,86 @@
+root database nosql mongodb	1.0	1.0	1.0
+root database nosql others	1.0	0.6	0.75
+root database nosql redis	1.0	0.75	0.857142857143
+root database others	0.0	0.0	0.0
+root database sql mariadb	1.0	1.0	1.0
+root database sql oracle	1.0	1.0	1.0
+root database sql others	1.0	1.0	1.0
+root database sql	0.857142857143	0.923076923077	0.888888888889
+root database	0.928571428571	1.0	0.962962962963
+root development delivery others	1.0	0.75	0.857142857143
+root development delivery	1.0	0.9	0.947368421053
+root development testing	1.0	0.75	0.857142857143
+root development versioncontrol others	1.0	0.5	0.666666666667
+root development versioncontrol	1.0	0.615384615385	0.761904761905
+root development	0.777777777778	0.686274509804	0.729166666667
+root distribute cloud aws	0.75	0.75	0.75
+root distribute cloud ec2	1.0	0.8	0.888888888889
+root distribute cloud openstack	1.0	1.0	1.0
+root distribute clustering consul	1.0	1.0	1.0
+root distribute clustering zookeeper	1.0	1.0	1.0
+root distribute clustering	1.0	0.866666666667	0.928571428571
+root distribute messaging rabbitmq	1.0	1.0	1.0
+root distribute messaging	1.0	0.6	0.75
+root logging elasticsearch others# logstash kibana logrotate rsyslog	1.0	0.75	0.857142857143
+root logging kibana	1.0	1.0	1.0
+root logging logrotate	1.0	1.0	1.0
+root logging others	1.0	0.894736842105	0.944444444444
+root logging rsyslog	1.0	1.0	1.0
+root logging	1.0	0.807692307692	0.893617021277
+root packaging others	0.666666666667	0.333333333333	0.444444444444
+root packaging repository apt	0.833333333333	1.0	0.909090909091
+root packaging repository yum	0.916666666667	1.0	0.95652173913
+root packaging	1.0	0.888888888889	0.941176470588
+root runtime database# distribute virtualization packaging logging	0.881720430108	0.911111111111	0.896174863388
+root runtime go	1.0	1.0	1.0
+root runtime java nodejs# python go others	1.0	1.0	1.0
+root runtime nodejs	1.0	1.0	1.0
+root runtime others	1.0	0.8	0.888888888889
+root runtime php ruby# java nodejs python go others	0.966666666667	0.935483870968	0.950819672131
+root runtime ruby rails	0.666666666667	1.0	0.8
+root runtime ruby	1.0	0.904761904762	0.95
+root server cms others	0.0	0.0	0.0
+root server cms wordpress	1.0	1.0	1.0
+root server cms	1.0	0.5	0.666666666667
+root server email postfix	0.666666666667	1.0	0.8
+root server email	1.0	1.0	1.0
+root server others	0.714285714286	0.333333333333	0.454545454545
+root server webserver apache	1.0	0.888888888889	0.941176470588
+root server webserver cache	1.0	0.5	0.666666666667
+root server webserver proxy apache# others tomcat cache varnish	0.642857142857	0.947368421053	0.765957446809
+root server webserver proxy haproxy	1.0	1.0	1.0
+root server webserver proxy others	1.0	1.0	1.0
+root server webserver tomcat	0.833333333333	1.0	0.909090909091
+root server webserver varnish	1.0	1.0	1.0
+root server	0.936170212766	0.698412698413	0.8
+root system authentication	0.0	0.0	0.0
+root system file editor others	1.0	0.5	0.666666666667
+root system file editor	0.555555555556	0.714285714286	0.625
+root system file nfs	1.0	1.0	1.0
+root system file	0.842105263158	0.615384615385	0.711111111111
+root system monitoring graphite	1.0	1.0	1.0
+root system monitoring nagios	1.0	1.0	1.0
+root system monitoring zabbix	1.0	1.0	1.0
+root system monitoring	0.958333333333	0.884615384615	0.92
+root system networking dns bind	1.0	0.5	0.666666666667
+root system networking dns	1.0	0.8	0.888888888889
+root system networking firewall iptables	1.0	1.0	1.0
+root system networking firewall	1.0	1.0	1.0
+root system networking vpn	1.0	1.0	1.0
+root system networking	0.96	0.615384615385	0.75
+root system others networking monitoring# security file utility time authentication	0.525179856115	0.960526315789	0.679069767442
+root system security file# utility time authentication	0.639534883721	0.846153846154	0.728476821192
+root system security others	1.0	0.625	0.769230769231
+root system security ssh openssh	0.5	1.0	0.666666666667
+root system security ssl	0.857142857143	0.857142857143	0.857142857143
+root system security sudo	1.0	0.5	0.666666666667
+root system server development# runtime database distribute virtualization packaging logging	0.847262247839	0.957654723127	0.899082568807
+root system time cron	1.0	1.0	1.0
+root system time others	1.0	0.333333333333	0.5
+root system time timezone	1.0	1.0	1.0
+root system time	1.0	1.0	1.0
+root system utility backup	0.166666666667	1.0	0.285714285714
+root virtualization container others	1.0	1.0	1.0
+root virtualization others	1.0	0.75	0.857142857143
+root virtualization vagrant	1.0	1.0	1.0
+root virtualization	1.0	0.6	0.75

@@ -1,0 +1,87 @@
+root database nosql mongodb	0.75	1.0	0.857142857143
+root database nosql postgresql	0.625	1.0	0.769230769231
+root database nosql redis	1.0	1.0	1.0
+root database nosql	0.9	0.818181818182	0.857142857143
+root database sql mariadb	1.0	1.0	1.0
+root database sql mysql	1.0	1.0	1.0
+root database sql oracle	1.0	1.0	1.0
+root database sql	0.705882352941	0.923076923077	0.8
+root database	0.852941176471	0.74358974359	0.794520547945
+root development delivery jenkins	0.857142857143	1.0	0.923076923077
+root development delivery	1.0	1.0	1.0
+root development testing	1.0	0.75	0.857142857143
+root development versioncontrol git	0.846153846154	1.0	0.916666666667
+root development versioncontrol	1.0	0.384615384615	0.555555555556
+root development	0.714285714286	0.588235294118	0.645161290323
+root distribute cloud aws	0.333333333333	0.5	0.4
+root distribute cloud ec2	1.0	0.4	0.571428571429
+root distribute cloud openstack	1.0	1.0	1.0
+root distribute cloud	0.95	0.76	0.844444444444
+root distribute clustering consul	0.75	1.0	0.857142857143
+root distribute clustering zookeeper	1.0	1.0	1.0
+root distribute clustering	0.6	1.0	0.75
+root distribute messaging rabbitmq	0.666666666667	1.0	0.8
+root distribute messaging	1.0	0.6	0.75
+root distribute	0.945945945946	0.660377358491	0.777777777778
+root logging elasticsearch	0.25	1.0	0.4
+root logging kibana	0.5	1.0	0.666666666667
+root logging logrotate	1.0	1.0	1.0
+root logging logstash	0.333333333333	1.0	0.5
+root logging rsyslog	1.0	1.0	1.0
+root logging	1.0	0.615384615385	0.761904761905
+root packaging repository apt	0.625	1.0	0.769230769231
+root packaging repository yum	0.857142857143	0.545454545455	0.666666666667
+root packaging repository	0.833333333333	0.952380952381	0.888888888889
+root packaging	0.928571428571	0.481481481481	0.634146341463
+root runtime go	1.0	0.5	0.666666666667
+root runtime java	1.0	1.0	1.0
+root runtime nodejs	0.875	1.0	0.933333333333
+root runtime php	0.909090909091	1.0	0.952380952381
+root runtime python	1.0	1.0	1.0
+root runtime ruby rails	0.5	0.75	0.6
+root runtime ruby	1.0	0.809523809524	0.894736842105
+root runtime	0.777777777778	0.686274509804	0.729166666667
+root server cms drupal	1.0	1.0	1.0
+root server cms wordpress	0.333333333333	1.0	0.5
+root server cms	1.0	0.5	0.666666666667
+root server email postfix	0.4	1.0	0.571428571429
+root server email	0.8	0.8	0.8
+root server webserver apache	1.0	0.777777777778	0.875
+root server webserver cache	0.5	0.5	0.5
+root server webserver proxy haproxy	1.0	1.0	1.0
+root server webserver proxy nginx	1.0	1.0	1.0
+root server webserver proxy	0.454545454545	1.0	0.625
+root server webserver tomcat	1.0	0.8	0.888888888889
+root server webserver varnish	1.0	1.0	1.0
+root server webserver	0.78	1.0	0.876404494382
+root server	0.775510204082	0.603174603175	0.678571428571
+root system authentication	0.0	0.0	0.0
+root system file editor vim	0.25	1.0	0.4
+root system file editor	0.571428571429	0.571428571429	0.571428571429
+root system file nfs	0.333333333333	1.0	0.5
+root system file	0.8	0.307692307692	0.444444444444
+root system monitoring graphite	1.0	1.0	1.0
+root system monitoring nagios	1.0	1.0	1.0
+root system monitoring zabbix	1.0	1.0	1.0
+root system monitoring	0.954545454545	0.807692307692	0.875
+root system networking dns	1.0	0.6	0.75
+root system networking firewall iptables	1.0	0.75	0.857142857143
+root system networking firewall	0.571428571429	1.0	0.727272727273
+root system networking vpn	1.0	1.0	1.0
+root system networking	0.735294117647	0.641025641026	0.684931506849
+root system security ssh openssh	0.333333333333	1.0	0.5
+root system security ssh	0.631578947368	0.857142857143	0.727272727273
+root system security ssl	0.857142857143	0.857142857143	0.857142857143
+root system security sudo	1.0	0.5	0.666666666667
+root system security	0.909090909091	0.512820512821	0.655737704918
+root system time cron	1.0	1.0	1.0
+root system time ntp	1.0	1.0	1.0
+root system time timezone	0.6	1.0	0.75
+root system time	1.0	0.888888888889	0.941176470588
+root system utility backup	0.166666666667	1.0	0.285714285714
+root system utility	1.0	0.205882352941	0.341463414634
+root system	0.78835978836	0.772020725389	0.780104712042
+root virtualization container docker	1.0	1.0	1.0
+root virtualization container	0.6	1.0	0.75
+root virtualization vagrant	1.0	1.0	1.0
+root virtualization	0.9	0.6	0.72

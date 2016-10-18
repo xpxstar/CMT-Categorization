@@ -1,0 +1,21 @@
+root database nosql postgresql mongodb# redis others.csv	0.666666666667	1.0	0.8
+root database nosql postgresql# mongodb.csv	1.0	1.0	1.0
+root database nosql redis# others.csv	1.0	0.75	0.857142857143
+root database nosql sql# others influxdb.csv	0.918918918919	0.971428571429	0.944444444444
+root database nosql# sql.csv	0.952380952381	0.909090909091	0.93023255814
+root database sql mysql# oracle mariadb others.csv	1.0	1.0	1.0
+root database sql oracle mariadb# others.csv	1.0	1.0	1.0
+root database sql oracle# mariadb.csv	1.0	1.0	1.0
+root development delivery jenkins# others.csv	0.857142857143	1.0	0.923076923077
+root development others# versioncontrol testing delivery.csv	0.8	1.0	0.888888888889
+root development versioncontrol git# others.csv	0.916666666667	1.0	0.95652173913
+root development versioncontrol testing# delivery.csv	0.944444444444	1.0	0.971428571429
+root development versioncontrol# testing.csv	1.0	1.0	1.0
+root distribute cloud aws# ec2.csv	0.571428571429	1.0	0.727272727273
+root distribute cloud others openstack# aws ec2.csv	1.0	0.9375	0.967741935484
+root distribute cloud others# openstack.csv	1.0	1.0	1.0
+root distribute cloud# clustering messaging others.csv	0.78125	1.0	0.877192982456
+root distribute clustering consul# zookeeper.csv	1.0	1.0	1.0
+root distribute clustering others# consul zookeeper.csv	1.0	1.0	1.0
+root distribute clustering# messaging others.csv	0.681818181818	1.0	0.810810810811
+root distribute messaging others# rabbitmq.csv	1.0	1.0	1.0
