@@ -1,0 +1,1066 @@
+mysql provides mysql service mysql config and mysql client resources,mysql
+nginx installs and configures nginx,nginx
+apache2 installs and configures all aspects of apache2 using debian style symlinks with helper definitions,apache
+java installs java runtime,java
+apt configures apt and apt services ships resources for managing apt repositories,apt
+postgresql installs and configures postgresql for clients or servers,postgresql
+git installs git and or sets up a git server daemon,git
+windows provides a set of useful windows-specific primitives,other
+build-essential installs c compiler build tools,other
+php installs and maintains php and php modules,php
+nodejs installs configures node.js io.js,nodejs
+sudo installs sudo and configures etc sudoers,sudo
+users creates users from a databag search,authentication
+mongodb installs and configures mongodb,mongodb
+aws custom resources for managing aws resources,aws
+ntp installs and configures ntp as a client or server,ntp
+jenkins installs and configures jenkins ci master slaves,jenkins
+database provides lwrps for common database tasks,database
+python installs python pip and virtualenv includes lwrps for managing python packages with pip and virtualenv isolated python environments,python
+yum configures various yum components on red hat-like systems,yum
+docker provides docker service docker image and docker container resources,docker
+nagios installs and configures nagios server,nagios
+tomcat installs and apache tomcat and manages the service,tomcat
+application a chef cookbook for deploying application code,other
+rabbitmq installs and configures rabbitmq server,rabbitmq
+elasticsearch installs and configures elasticsearch,elasticsearch
+openssh installs and configures openssh client and daemon,openssh
+memcached installs memcached and includes memcached instance resource for setting up runit memcached instances,cache
+openssl provides a library with a method for generating secure random passwords,ssl
+cron installs cron,cron
+newrelic installs configures newrelic,other
+postfix installs and configures postfix for client or outbound relayhost or to do sasl auth,postfix
+runit installs runit and provides runit service definition,monitoring
+iis installs configures microsoft internet information services,networking
+logrotate installs logrotate package and provides a definition for logrotate configs,logrotate
+iptables installs the iptables daemon and provides a lwrp for managing rules,iptables
+redisio installs configures redis,redis
+logstash installs configures logstash,logstash
+haproxy installs and configures haproxy,haproxy
+chef handler distribute and enable chef exception and report handlers,chef
+rbenv installs and configures rbenv,ruby
+wordpress installs configures wordpress,wordpress
+powershell installs configures powershell on the windows platform,utility
+graylog2 installs and configures graylog - maintained by graylog inc,logging
+ark provides a custom resource for installing runtime artifacts in a predictable fashion,file
+firewall provides a set of primitives for managing firewalls and associated rules,firewall
+php-fpm installs configures php-fpm,php
+chef-server installs and configures chef server 12,chef
+fail2ban installs and configures fail2ban,networking
+hostsfile provides an lwrp for managing the etc hosts file,networking
+rvm manages system-wide and per-user rvms and manages installed rubies several lightweight resources and providers lwrp are also defined.installs and manages rvm includes several lwrps,ruby
+graphite installs configures graphite,graphite
+rsyslog installs and configures rsyslog,rsyslog
+yum-epel installs and configures the epel yum repository,yum
+sysctl configures sysctl parameters,utility
+ohai distributes a directory of custom ohai plugins,other
+sql server installs configures microsoft sql server 2008 r2,database
+ubuntu sets up apt sources for ubuntu linux,apt
+redis redis a fast flexible datastore offering an extremely useful set of data structure primitives,redis
+application ruby a chef cookbook for deploying application code,ruby
+omnibus updater chef omnibus package updater and installer,development
+ruby installs ruby and related packages,ruby
+zabbix installs configures zabbix agent server,zabbix
+chef installs and configures chef for chef-client and chef-server,chef
+homebrew install homebrew and use it as the os x package provider on chef versions 11,repository
+ssh known hosts dyanmically generates etc ssh known hosts based on search indexes,ssh
+varnish installs and configures varnish,varnish
+vim installs vim and optional extra packages,vim
+application python a chef cookbook for deploying python application code,python
+erlang installs erlang optionally install gui tools,runtime
+user a convenient chef lwrp to manage user accounts and ssh keys this is not the opscode users cookbook,authentication
+passenger apache2 installs passenger for apache2,webserver
+monit a deprecated chef cookbook for managing the monit process manager,monitoring
+maven installs apache maven includes a resource for installing artifacts from maven,development
+munin installs and configures munin,monitoring
+node installs configures node npm and node server providers,nodejs
+unicorn installs and configures unicorn,utility
+xml installs xml,editor
+gitlab installs configures gitlab,git
+7-zip installs configures the 7-zip file archiver,file
+hadoop installs configures hadoop hdfs yarn mrv2 hbase hive flume oozie pig spark storm tez and zookeeper,clustering
+couchdb installs couchdb package and starts service,nosql
+httpd provides httpd service httpd config and httpd module resources,apache
+resolver configures etc resolv.conf via attributes,file
+selinux manages selinux policy state via lwrp or recipes,security
+ec2 manage ec2 metadata as attributes,ec2
+perl installs perl and provides a resource for maintaining cpan modules,runtime
+certificate installs configures certificates private keys ca root bundles from encrypted data bags,security
+chef-vault installs the chef-vault gem and provides chef vault item recipe helper,chef
+openvpn installs and configures openvpn and includes rake tasks for managing certs,vpn
+riak installs and configures riak distributed data store,nosql
+nfs installs and configures nfs and nfs exports,nfs
+zookeeper installs configures zookeeper,zookeeper
+percona installs percona mysql client and server,mysql
+ruby build manages the ruby-build framework and its installed rubies a lwrp is also defined,ruby
+consul application cookbook which installs and configures consul,consul
+1password installs password 1password,security
+splunk installs configures a splunk server forwarders and apps,logging
+chef-sugar installs chef-sugar please see the chef-sugar ruby gem for more information,chef
+datadog installs configures datadog components,logging
+rsync installs rsync,utility
+accounts system accounts management,authentication
+drupal installs configures drupal,drupal
+kibana installs configures kibana the logstash ui,kibana
+openldap configures a server to be an openldap master replication slave or client for auth,nosql
+ulimit installs configures ulimit,utility
+application nginx deploys and configures nginx as an application server,nginx
+dmg lwrp to install os x applications from dmgs,security
+cassandra cassandra a massively scalable high-performance distributed storage system,nosql
+chocolatey install chocolatey and packages on windows,packaging
+imagemagick installs configures imagemagick,utility
+networking basic install basic networking tools and utilities on debian centos redhat and ubuntu,networking
+subversion installs subversion,versioncontrol
+tomcat6 installs and configures all aspects of tomcat6 using custom local installation,tomcat
+bluepill installs bluepill gem and configures to manage services includes bluepill service lwrp,virtualization
+elkstack installs configures elkstack,logging
+hostname configures hostname and fqdn,other
+line provides line editing resources for use by recipes,editor
+lvm installs and manages logical volume manager,file
+oracle installs configures oracle rdbms and client on centos 6.5,oracle
+route53 installs configures route53,dns
+weblogic installs configures fusion-middleware family of products,cms
+zsh installs zsh,other
+composer installs configures composer,other
+ufw installs and configures uncomplicated firewall ufw,firewall
+yumrepo installs and configures epel elff dell and vmware yum repositories,yum
+ant installs configures ant,other
+redis2 installs configures redis,redis
+simple iptables simple lwrp and recipe for managing iptables rules,iptables
+mariadb installs configures mariadb,mariadb
+ssh-keys creates authorized keys in user .ssh directory from a data bag encrypted data bag supported,ssh
+activemq installs activemq and sets it up as service,messaging
+application php deploys and configures php-based applications,php
+grafana installs configures grafana,monitoring
+magic shell installs configures command alias,other
+newrelic plugins installs new relic plugins,monitoring
+s3 file installs configures s3 file lwrp,cloud
+virtualbox installs virtualbox,virtualization
+stash installs configures atlassian stash,repository
+chef-splunk manage splunk enterprise or splunk universal forwarder,logging
+mac os x manage os x user defaults settings,other
+nrpe installs and configures nagios nrpe client,logging
+sphinx installs configures sphinx search engine,server
+squid installs configures squid as a simple caching proxy,proxy
+vagrant installs vagrant and provides a vagrant plugin lwrp for installing vagrant plugins,vagrant
+webpi installs configures the microsoft web platform installer webpi,webserver
+windows firewall configures firewall rules on windows,firewall
+xfs installs packages for working with xfs,file
+application java deploys and configures java-based applications,java
+artifact provides your cookbooks with the artifact deploy lwrp,other
+glassfish installs configures glassfish application server,webserver
+golang installs go programming language,go
+snmp installs configures snmp on redhat centos ubuntu debian,networking
+couchbase installs and configures couchbase server,nosql
+dsc experimental primitives to integrate with microsoft desired state configuration,utility
+god installs and configures god and provides a define for monitoring,monitoring
+lxc chef driven linux containers,container
+rails installs rails and provides a sample template for use with passenger,ruby
+s3fs mount one or more s3 buckets to the filesystem,cloud
+system installs configures system elements such as the hostname and timezone,timezone
+tmux installs tmux,utility
+curl installs configures curl,utility
+drush installs drush head,utility
+os-hardening installs configures security,security
+timezone-ii configure the system timezone on linux systems,timezone
+daemontools installs configures daemontools,file
+ffmpeg installs configures ffmpeg,utility
+gunicorn installs configures gunicorn,webserver
+kafka intalls and configures a kafka broker,messaging
+logwatch installs logwatch a nice log analyzer,logging
+mod security installs and configures mod security for apache2 or iis,security
+nexus installs configures nexus,development
+percona-install installs percona apt yum repostiory client and server,database
+ruby enterprise installs configures ruby-enterprise,ruby
+rubygems installs configures rubygems,ruby
+timezone configure the system timezone on debian or ubuntu,timezone
+backup installs configures backup,backup
+django installs django,webserver
+jboss installs configures jboss,development
+mesos installs configures apache mesos,docker
+nginx conf installs configures nginx conf,nginx
+ossec installs configures ossec,security
+passenger enterprise installs and configures passenger under ruby enterprise edition with apache,webserver
+php5-fpm installs configures php5-fpm,php
+phpmyadmin installs configures phpmyadmin,php
+rails application installs configures rails application,ruby
+rundeck installs and configures rundeck 2.x,cloud
+yum-mysql-community installs configures yum-mysql-community,yum
+elasticsearch cluster elasticsearch a distributed full-text search database based on lucene you know for search,logging
+generic-users sets up user accounts,authentication
+hadoop cluster hadoop distributed massive-scale data processing framework store and analyze terabyte-scale datasets with ease,clustering
+mongodb-10gen installs configures mongodb-10gen,mongodb
+solr installs the solr search engine,server
+sshd installs configures sshd,ssh
+storm installs twitter s storm distributed computation system,distribute
+tar installs tar and two lwrps to manage remote tar packages,file
+aix custom resources useful for aix systems,system
+bundler installs bundler and provides recipes to bundle actions,sudo
+chef-solo-search data bag search for chef solo,server
+ganglia installs configures ganglia,monitoring
+icinga2 installs configures icinga 2,monitoring
+iptables-ng installs configures iptables-ng,iptables
+motd installs configures motd,testing
+partial search provides experimental interface to partial search api in chef software hosted chef for chef-client pre-12.0,chef
+ssl sets up ssl certs and keys from an encrypted data bag,ssl
+ssl certificate the main purpose of this cookbook is to make it easy for other cookbooks to support ssl,ssl
+windows network configures windows network interfaces,networking
+annoyances removes assorted operating system annoyances,other
+bootstrap configures rubygems-installed chef,ruby
+dhcp dhcp,networking
+dnsimple provides chef lwrp for automating dns configuration with dnsimple,dns
+hubot deploys and manages an instance of github s hubot,git
+jetty installs configures jetty,development
+locale installs configures locale,time
+oh-my-zsh installs configures oh-my-zsh,other
+phantomjs installs configures phantomjs,development
+postgis installs configures postgis postgresql extension,nosql
+wlp installs websphere application server liberty profile,server
+apache various apache server related resource provides lwrp,apache
+apparmor disables apparmor service on ubuntu,authentication
+audit-cis chef audit-mode controls for cis benchmarks,security
+cassandra-dse installs configures apache cassandra,nosql
+deploy key manage deploy keys on github and bitbucket,git
+firefox installs mozilla firefox on multiple operating systems,browser
+htop installs htop,system
+hudson installs and configures hudson ci server slaves,delivery
+logstash forwarder installs configures logstash forwarder,logstash
+mercurial installs mercurial,versioncontrol
+push-jobs installs the chef push jobs client,chef
+sqlite installs sqlite,sql
+ssh-hardening installs configures ssh,ssh
+statsd installs configures statsd,networking
+vsftpd installs configures vsftpd daemon,server
+zenoss installs and configures zenoss and registers nodes as devices,monitoring
+apache zookeeper installs configures apache zookeeper,zookeeper
+azure installs and configures windows azure support for linux vms,cloud
+bind installs configures isc bind,bind
+chef gem provides proper chef gem resource support for chef versions 0.10.12,chef
+collectd installs and configures the collectd monitoring daemon,monitoring
+heartbeat installs but does not configure heartbeat,clustering
+keepalived installs and configures keepalived,webserver
+kibana lwrp installs configures kibana,logging
+metachef cluster orchestration -- coordinates discovery integration and decoupling of cookbooks,chef
+minitest-handler installs and configures minitest-chef-handler,chef
+mongodb3 installs configures mongodb 3,mongodb
+monitor a cookbook for monitoring services using sensu a monitoring framework,monitoring
+mysql-chef gem provides the mysql chef gem resource,mysql
+network interfaces installs configures network on ubuntu and debian,networking
+newrelic-ng installs configures newrelic monitoring,cloud
+oracle-fmw installs configures oracle fusion middleware 11g 12c,utility
+poise-python a chef cookbook for managing python installations,python
+selenium installs configures selenium,testing
+vmware-tools installs configures vmware-tools with a fugly bash script,virtualization
+yum-corporate configures repo file via attributes for internal corporate yum mirror,yum
+aix-base-setup configures aix with basic cli tools,system
+apache2-windows installs and configures apache on microsoft windows platforms,apache
+application wlp deploys and configures applications to websphere application server liberty profile,server
+aws-rds provides libraries resources and providers to configure and manage amazon relational database service amazon rds with the ec2 api,ec2
+capistrano installs capistrano gem and provides a define to set up deployment for an application,development
+chruby installs configures chruby,ruby
+clamav installs configures clamav,security
+compat resource chef 12.5 resources for chef 12.1-12.4,chef
+djbdns installs djbdns and configures dns services,dns
+dovecot installs and configures dovecot open source imap and pop3 email server,email
+haproxy-ng modern resource-driven cookbook for managing haproxy,haproxy
+htpasswd provider for htpasswd,security
+java se installs oracle s java se jdk,java
+kitchen-jenkins set up a node to run test-kitchen in jenkins,jenkins
+microsoft azure lwrps for managing azure resources,cloud
+motd-tail updates motd.tail with chef roles,testing
+network interfaces v2 providers for configuring network on ubuntu rhel and windows,networking
+pdns installs configures pdns,dns
+phpunit installs configures phpunit,php
+smf a light weight resource provider lwrp for smf service management facility,other
+snort installs snort ids packages,networking
+sssd ldap sets up sssd for ldap on ubuntu and rhel systems,nosql
+stunnel installs configures stunnel,ssl
+yum-centos installs and configures the centos yum repositories,yum
+zabbix windows installs zabbix agent on windows hosts,zabbix
+zookeeper cluster zookeeper a distributed high-availability consistent datastore,zookeeper
+amazonec2tag chef lwrp for setting amazon web services ec2 tags,ec2
+apache kafka installs configures apache kafka 0.7.0,messaging
+apache vhosts helps to configure virtual hosts for apache2,apache
+artifactory installs configures artifactory,development
+berkshelf-api-server installs configures a berkshelf-api server,server
+confluence installs configures atlassian confluence,utility
+deis installs configures components of the deis paas,cloud
+firewalld installs configures firewalld,firewall
+flume flume reliable decoupled shipment of logs and data,logging
+freebsd handles freebsd ports setup,system
+gems sets up a local gem server repository or mirror,repository
+graphite handler installs configures the chef graphite handler originally developed by ian meyer,graphite
+hbase cluster hbase a massively-scalable high-throughput datastore based on the hadoop hdfs,nosql
+hhvm installs configures hhvm,php
+icinga installs configures icinga,monitoring
+jboss7 installs configures jboss 7,development
+jira installs configures atlassian jira,development
+kvm installs configures tuning kvm,virtualization
+magento magento app stack,server
+monit-ng installs and configures monit,monitoring
+ms dotnet35 installs microsoft .net framework 3.5,system
+ms dotnet45 installs microsoft .net 4.5,system
+mysql2 chef gem provides the mysql 2 chef gem resource,mysql
+nginx-proxy nginx proxy,nginx
+nvm installs nvm the node version manager,nodejs
+openresty installs and configures the openresty nginx bundle,webserver
+packagecloud installs configures packagecloud.io repositories,repository
+rabbitmq chef installs the rabbitmq amqp broker for use on a chef server,rabbitmq
+redmine installs and configures redmine as a rails app in passenger apache2,webserver
+resque installs configures resque,redis
+samba installs configures samba,networking
+selinux policy manages selinux policy components,security
+splunk handler installs configures the chef exception reporting handler for splunk,logging
+sysstat installs configures sysstat,monitoring
+uwsgi installs configures uwsgi,server
+windows ad installs configures windows active directory,other
+windows-hostname sets hostname and fqdn of a windows node,other
+windows rdp installs configures windows rdp,other
+zlib installs zlib,file
+aem installs configures adobe aem,utility
+bag config provides helpers for optional data bag configuration,other
+beanstalkd installs configures beanstalkd,distribute
+boxstarter executes chocolatey packages windows updates provides several windows configuration commands and can run any adhoc powershell in a reboot resilient context,utility
+consul-template installs configures consul-template,consul
+crontab configures crontab,cron
+deployer installs configures a deployment user,authentication
+docker-registry installs and configures docker-registry,docker
+hbase installs configures hbase using a databag for configuration expects hadoop to be set up with the hadoop for hbase recipe,nosql
+learn chef iis installs and configures iis the w3svc and sets a basic home page,networking
+ms dotnet installs configures ms dotnet,other
+ms dotnet4 installs microsoft .net 4.0,other
+mysqld installs configures mysqld,mysql
+newrelic monitoring installs configures new relic monitoring,monitoring
+nscd installs and configures nscd,cache
+omnibus prepares a machine to be an omnibus builder,development
+owncloud installs and configures owncloud an open source personal cloud for data and file sync share and view,cloud
+packer installs configures packer,virtualization
+passenger installs passenger via rubygems explicity uses system-wide rvm if present,webserver
+perlbrew configures and installs perlbrew,runtime
+postfix-dovecot installs and configures a mail server using postfix dovecot postfixadmin and spamassassin including amazon ses support,postfix
+postgresql91 installs and configures postgresql for clients or servers,postgresql
+postgresql lwrp installs and configures postgresql for clients or servers,postgresql
+putty installs configures putty a free implementation of telnet and ssh for windows and unix platforms along with an xterm terminal emulator,ssh
+pxe dust configures local bootstrapping and installing operating systems via pxe booting,utility
+ruby install installs configures ruby-install,ruby
+solrcloud installs configures apache solr,server
+systemd resource-driven chef cookbook for managing linux systems via systemd,utility
+visualstudio installs configures visual studio,development
+wildfly installs configures wildfly,development
+wsus-client configures wsus client,system
+yum-ius installs and configures the ius community project yum repository,yum
+ack installs ack a utility for quickly performing recursive searches of directory trees of text files such as source code,file
+acl setup posix access control lists acls,networking
+ad builds an active directory domain controller,file
+apache spark a cookbook to install and configure apache spark,apache
+app installs configures a rails app,rails
+application nodejs deploys and configures node.js applications,nodejs
+auditd installs configures auditd,security
+bind9 installs configures bind9,bind
+cis benchmark applies the center for internet security s benchmarks at configuration recommendations level-i,security
+cpu manage cpu governor on linux,utility
+crowd installs configures atlassian crowd,authentication
+debian sets up debian repositories,repository
+drone installs configures drone,development
+etcd a fabulous new cookbook,clustering
+f5-bigip installs configures f5-icontrol,networking
+filesystem installs configures various filesystems,file
+github-deploys configures a user account with keys and authenticates with the github api,git
+hashicorp-vault application cookbook for installing and configuring vault,security
+hosts installs configures hosts,networking
+influxdb influxdb a timeseries database,database
+jenkins utils utilities for managing jenkins jobs with chef,jenkins
+jn sysctl configure set sysctl paramaters,utility
+learn chef httpd installs and configures package httpd and sets a basic home page,apache
+letsencrypt install free and trusted ssl tls certificates from let s encrypt,ssl
+libarchive a library cookbook for extracting archive files,file
+mcollective provides the mcollective orchestration framework,messaging
+minecraft installs configures minecraft server,other
+minitest installs mini test from gem and makes available some lwrp for intra-recipe usage,testing
+modules manage modules on linux,system
+msdeploy this cookbook provides support for using msdeploy inside chef cookbooks,server
+newrelic-sysmond setup new relic sysmond for server monitoring,monitoring
+oracle-xe installs oracle express edition,oracle
+packages installs list of packages from an attribute,packaging
+pacman updates package list for pacman and has lwrp for pacman groups,packaging
+pipeline installs configures a jenkins based chef delivery pipeline,jenkins
+piwik installs configures piwik,webserver
+poise helpers for writing extensible chef cookbooks,chef
+rails rvm installs configures rvm on rails,rails
+rbac allows delegation of service management to users with solaris role based access control rbac,authentication
+screen installs screen,ssh
+ssl-vault ssl key certificate storage in chef-vault,ssl
+tomcat latest installs and configures latest apache tomcat 6 or 7,tomcat
+trac installs configures trac,development
+unattended upgrades installs configures apt unattended upgrades,apt
+unbound manages unbound dns resolver,dns
+vmware installs vmware tools,virtualization
+wsus-server installs wsus server,system
+x264 installs configures x264,utility
+zip installs zip and unzip,file
+authbind installs configures authbind and defines resources for managing authorization,authorization
+awscli defines a number of lwrp wrapper commands around the awscli command line script,aws
+aws extras helpful stuff for managing aws resources,aws
+backup-manager installs configures backup-manager,backup
+bamboo installs and configures bamboo,delivery
+beaver installs configures beaver,other
+blackfire installs and configures blackfire stack,development
+boost installs the boost c libraries,system
+ceph installs configures the ceph distributed filesystem,clustering
+chef-reporting installs configures chef-reporting,chef
+chef-teamcity installs configures teamcity agent server,delivery
+chrome installs configures chrome browser,utility
+cpan cpan modules provider cpan client provider lwrp,development
+cygwin installs configures cygwin,utility
+deploy wrapper provides a definition that sets up an ssh key and ssh wrapper script for use with deploy or deploy revision resources,ssh
+drbd installs configures drbd,clustering
+elk setup elk logstash elasticsearch and kibana,logging
+emacs installs emacs,editor
+etckeeper installs configures etckeeper,git
+fqdn installs configures fqdn,networking
+gecode installs gecode,development
+gluster installs and configures gluster servers and clients,clustering
+hostnames configures hostname and fqdn,networking
+iterm2 installs configures iterm2,utility
+jenkins-server this cookbook installs a complete jenkins server with plugins and is highly configurable with attributes in this cookbook,jenkins
+jpackage installs configures jpackage,packaging
+libvirt installs configures libvirt,virtualization
+libvpx installs configures libvpx,other
+limits configures limits,security
+logstash-forwarder installs and configures logstash-forwarder,logging
+man installs man-db,utility
+mosh installs mosh,ssh
+ms messagequeue installs microsoft message queueing service,messaging
+mysql ebs configures a mysql server to use an ebs volume for it s storage,mysql
+mysql-hardening installs and configures a secure mysql server,mysql
+mysql tuning tries to create mysql configuraiton better suited for your system,mysql
+nginx simplecgi provides simplecgi for nginx,nginx
+nodejs-windows installs configures node.js,nodejs
+octopus installs configures and registers an octopus tentacle,utility
+openvas installs configures openvas,security
+oracle-instantclient installs the oracle instant client and sql plus,oracle
+php5 ppa installs configures php5 from ppa,php
+postgres installs configures postgres from sources optimized for smartos and ready for streaming replication,postgresql
+postgres-hardening installs and configures a secure posgres server,postgresql
+proftpd installs configures proftpd,server
+r installs configures r,runtime
+railsbox auto deploy rails app with rbenv nginx unicorn postgresql,rails
+razor project razor,other
+resource easier more powerful chef resources,chef
+ruby installer installs ruby,ruby
+s3cmd installs and configures s3cmd,cloud
+slack handler installs configures a chef handler for reporting results to a slack channel,development
+smartmontools installs configures smartmontools,utility
+splunkforwarder installs configures splunk forwarder,logging
+ssh-util lwrps for managing ssh known hosts and config files,ssh
+td-agent installs configures td-agent,logging
+thrift installs thrift from source,utility
+tomcat7 installs configures tomcat,tomcat
+winrm-config configures winrm service and client,utility
+xen spawn new vms from a base image using xen tools,virtualization
+xvfb installs configures xvfb as a service,server
+yum-erlang solutions installs configures yum-erlang solutions,yum
+yum-oracle configures yum repos on an oracle linux system,yum
+yum-repoforge installs and onfigures yum-repoforge aka rpmforge,yum
+yum-vmware-tools installs and configures vmware yum repositories,yum
+amazon dns manage amazon route 53 dns system,dns
+ambari installs configures ambari,development
+android-sdk installs google android sdk,other
+apache-log-analysis analysis apache logs by logstash elasticsearch and kibana,logging
+apt-chef configures apt repository for chef software inc products,apt
+apt-asterisk installs configures apt docker vendor-specific repository,asterisk
+asterisk installs configures asterisk,utility
+atom installs configures the atom text editor,editor
+aufs installs configures aufs,file
+autoetchosts installs configures autoetchosts,utility
+aws security installs configures aws security group,cloud
+backup lwrp installs configures backup,backup
+bamboo-agent installs configures a bamboo agent,delivery
+boilerplate installs configures boilerplate,development
+cerner splunk installs configures splunk servers and forwarders,logging
+chef-mailcatcher installs configures mailcatcher,email
+chef-zero installs chef zero on pre-chef-zero included chef releases,chef
+client-rekey regenerates your client key,chef
+cloudfoundry installs configures cloudfoundry,cloud
+cloud foundry installs configures cloud foundry,cloud
+collectd plugins application cookbook which configures collectd plugins,monitoring
+conf lwrp to manage configuration files,file
+diaspora installs configures diaspora,webserver
+discovery installs configures the discovery library,system
+dnsmasq installs and configures dnsmasq,dns
+dpkg autostart control service actions initialized from dpkg,packaging
+ec2-ami-tools installs configures ec2-ami-tools,ec2
+ec2-bundle-vol bundles and uploads a new ec2 ami from the running instance,ec2
+editor set the system-wide default editor,editor
+elixir manages an elixir installation,runtime
+exim4-light installs and configures exim4-light,messaging
+f5 lwrp to manage an f5 bigip load balancer,networking
+filezilla installs configures filezilla,server
+forever chef cookbook for running node apps using forever,nodejs
+gearman installs configures gearman job server,distribute
+gerrit installs configures gerrit,development
+gitolite installs gitolite,git
+hosts file provides managed hosts file,networking
+idea installs and configures intellij idea,development
+jenkinsstack installs configures jenkins stack,jenkins
+kickstart creates apache2 vhost and serves a kickstart file,cms
+kubernetes manipulate kubernetes resources,docker
+laravel installs and configures laravel and additional modules,development
+learn chef apache2 installs and configures package apache2 and sets a basic home page,apache
+linode collection of useful recipes for setting up linodes,cloud
+netsh firewall configures windows firewall using netsh,ssh
+nginx vhost installs configures nginx vhost,nginx
+notepadplusplus installs configures notepad,editor
+now library cookbook providing special ordering method include recipe now,other
+nsclient installs configures nsclient using chocolatey,monitoring
+nxlog installs and configures nxlog ce on linux or windows,logging
+openstack library cookbook to interact with openstack clouds,openstack
+package installer installs updates system packages,packaging
+php-mcrypt installs configures the mcrypt module for php,php
+php-redis installs configures php-redis,php
+pm2 installs configures pm2,nodejs
+poise-service a chef cookbook for managing system services,utility
+reprepro installs configures reprepro for an apt repository,apt
+ruby lwrp installs chruby and ruby-build to build rubies from source,ruby
+s3fs-fuse installs configures s3fs-fuse,cloud
+ssh authorized keys creates ssh authorized keys files in user home directories,ssh
+ssh-wrapper lib to create an ssh wrapper script for use with git as git ssh,ssh
+tomcat-all installs configures tomcat,tomcat
+x509 deploy a chef-managed certificate authority,authentication
+xymon installs configures xymon monitoring infrastructure,monitoring
+zabbix lwrp installs and configures zabbix agent and server with postgresql and nginx provides lwrp for creating and modifying zabbix objects,zabbix
+zfs manages solaris zfs,file
+amazon s3cmd installs configures amazon s3cmd,cloud
+application git a plugin for poise-application to deploy applications from git,git
+aws-sdk installs the aws-sdk for chef,aws
+chef ruby installs ruby 1.9 from source,ruby
+consul-cluster wrapper cookbook which installs and configures a consul cluster,consul
+diptables an iptables cookbook for chef,iptables
+dns create dns entries for nodes,dns
+docker deploy installs configures docker deploy,docker
+ellk library to handle elasticsearch logstash logstash-forwarder kibana,logstash
+github a library cookbook for interacting with the github api,git
+github users creates users from a github organization or list of users,git
+gitlab omnibus installs configures gitlab and gitlab ci omnibus,git
+go cd installs configures go-server,go
+hadoop cluster rpm unmerged rpm-distro additions for hadoop cluster,clustering
+jruby installs configures jruby,ruby
+lighttpd installs configures lighttpd,apache
+locales installs configures locales,time
+neo4j installs configures neo4j,logging
+nginx-fastcgi create nginx site to run your fastcgi application under nginx frontend,nginx
+pig pig a data analysis program for hadoop it s like sql but with less suck and more scalable,clustering
+postfix-dkim installs configures postfix and opendkim a postfix dkim filter see https help.ubuntu.com community postfix dkim,email
+rabbitmq-management enables the rabbitmq-management plugin and dependencies,rabbitmq
+rabbitmq settings converge rabbitmq settings using lwrp depends on opscode-cookbook rabbitmq,rabbitmq
+rails enterprise installs ruby on rails with ruby enterprise edition,rails
+ruby rbenv manages rbenv and its installed rubies several lwrps are also defined,ruby
+ssh lwrps for managing ssh known hosts and config files,ssh
+tftp installs configures tftpd,server
+timezone lwrp configure the system timezone on debian or ubuntu,time
+volumes mounts volumes as directed by node metadata can attach external cloud drives such as ebs volumes,file
+windows ssl installs configures windows ssl,ssl
+zabbix-agent installs configures zabbix agent,zabbix
+zfs linux installs configures zfs on linux,file
+yum-erlang solutions installs configures yum-erlang solutions,yum
+yum-repoforge installs and onfigures yum-repoforge aka rpmforge,yum
+yum-vmware-tools installs and configures vmware yum repositories,yum
+amazon dns manage amazon route 53 dns system,dns
+ambari installs configures ambari,development
+github users creates users from a github organization or list of users,git
+mysql provides mysql service mysql config and mysql client resources,mysql
+nginx installs and configures nginx,nginx
+apache2 installs and configures all aspects of apache2 using debian style symlinks with helper definitions,apache
+java installs java runtime,java
+apt configures apt and apt services ships resources for managing apt repositories,apt
+postgresql installs and configures postgresql for clients or servers,postgresql
+git installs git and or sets up a git server daemon,git
+windows provides a set of useful windows-specific primitives,other
+php installs and maintains php and php modules,php
+nodejs installs configures node.js io.js,nodejs
+users creates users from a databag search,authentication
+mongodb installs and configures mongodb,mongodb
+aws custom resources for managing aws resources,aws
+ntp installs and configures ntp as a client or server,ntp
+installs and configures jenkins ci master slaves,jenkins
+database provides lwrps for common database tasks,database
+python installs python pip and virtualenv includes lwrps for managing python packages with pip and virtualenv isolated python environments,python
+yum configures various yum components on red hat-like systems,yum
+nagios installs and configures nagios server,nagios
+application a chef cookbook for deploying application code,other
+rabbitmq installs and configures rabbitmq server,rabbitmq
+elasticsearch installs and configures elasticsearch,elasticsearch
+openssh installs and configures openssh client and daemon,openssh
+memcached installs memcached and includes memcached instance resource for setting up runit memcached instances,cache
+openssl provides a library with a method for generating secure random passwords,ssl
+cron installs cron,cron
+newrelic installs configures newrelic,other
+runit installs runit and provides runit service definition,monitoring
+iis installs configures microsoft internet information services,networking
+logrotate installs logrotate package and provides a definition for logrotate configs,logrotate
+iptables installs the iptables daemon and provides a lwrp for managing rules,iptables
+redisio installs configures redis,redis
+logstash installs configures logstash,logstash
+haproxy installs and configures haproxy,haproxy
+chef handler distribute and enable chef exception and report handlers,chef
+rbenv installs and configures rbenv,ruby
+wordpress installs configures wordpress,wordpress
+graylog2 installs and configures graylog - maintained by graylog inc,logging
+ark provides a custom resource for installing runtime artifacts in a predictable fashion,file
+firewall provides a set of primitives for managing firewalls and associated rules,firewall
+php-fpm installs configures php-fpm,php
+chef-server installs and configures chef server 12,chef
+fail2ban installs and configures fail2ban,networking
+hostsfile provides an lwrp for managing the etc hosts file,networking
+rvm manages system-wide and per-user rvms and manages installed rubies several lightweight resources and providers lwrp re also defined.installs and manages rvm includes several lwrps,ruby
+installs configures graphite,graphite
+installs and configures rsyslog,rsyslog
+yum-epel installs and configures the epel yum repository,yum
+sysctl configures sysctl parameters,utility
+ohai distributes a directory of custom ohai plugins,other
+sql server installs configures microsoft sql server 2008 r2,database
+ubuntu sets up apt sources for ubuntu linux,apt
+redis redis a fast flexible datastore offering an extremely useful set of data structure primitives,redis
+application ruby a chef cookbook for deploying application code,ruby
+omnibus updater chef omnibus package updater and installer,development
+ruby installs ruby and related packages,ruby
+zabbix installs configures zabbix agent server,zabbix
+chef installs and configures chef for chef-client and chef-server,chef
+homebrew install homebrew and use it as the os x package provider on chef versions 11,repository
+ssh known hosts dyanmically generates etc ssh known hosts based on search indexes,ssh
+vim installs vim and optional extra packages,vim
+erlang installs erlang optionally install gui tools,runtime
+user a convenient chef lwrp to manage user accounts and ssh keys this is not the opscode users cookbook,authentication
+passenger apache2 installs passenger for apache2,webserver
+monit a deprecated chef cookbook for managing the monit process manager,monitoring
+maven installs apache maven includes a resource for installing artifacts from maven,development
+munin installs and configures munin,monitoring
+node installs configures node npm and node server providers,nodejs
+unicorn installs and configures unicorn,utility
+xml installs xml,editor
+gitlab installs configures gitlab,git
+7-zip installs configures the 7-zip file archiver,file
+couchdb installs couchdb package and starts service,nosql
+httpd provides httpd service httpd config and httpd module resources,apache
+resolver configures etc resolv.conf via attributes,file
+selinux manages selinux policy state via lwrp or recipes,security
+ec2 manage ec2 metadata as attributes,ec2
+perl installs perl and provides a resource for maintaining cpan modules,runtime
+certificate installs configures certificates private keys ca root bundles from encrypted data bags,security
+chef-vault installs the chef-vault gem and provides chef vault item recipe helper,chef
+openvpn installs and configures openvpn and includes rake tasks for managing certs,vpn
+riak installs and configures riak distributed data store,nosql
+zookeeper installs configures zookeeper,zookeeper
+percona installs percona mysql client and server,mysql
+ruby build manages the ruby-build framework and its installed rubies a lwrp is also defined,ruby
+consul application cookbook which installs and configures consul,consul
+1password installs password 1password,security
+splunk installs configures a splunk server forwarders and apps,logging
+chef-sugar installs chef-sugar please see the chef-sugar ruby gem for more information,chef
+datadog installs configures datadog components,logging
+rsync installs rsync,utility
+drupal installs configures drupal,drupal
+kibana installs configures kibana the logstash ui,kibana
+ulimit installs configures ulimit,utility
+application nginx deploys and configures nginx as an application server,nginx
+dmg lwrp to install os x applications from dmgs,security
+cassandra cassandra a massively scalable high-performance distributed storage system,nosql
+imagemagick installs configures imagemagick,utility
+networking basic install basic networking tools and utilities on debian centos redhat and ubuntu,networking
+subversion installs subversion,versioncontrol
+tomcat6 installs and configures all aspects of tomcat6 using custom local installation,tomcat
+bluepill installs bluepill gem and configures to manage services includes bluepill service lwrp,virtualization
+elkstack installs configures elkstack,logging
+hostname configures hostname and fqdn,other
+line provides line editing resources for use by recipes,editor
+lvm installs and manages logical volume manager,file
+oracle installs configures oracle rdbms and client on centos 6.5,oracle
+route53 installs configures route53,dns
+weblogic installs configures fusion-middleware family of products,cms
+zsh installs zsh,other
+composer installs configures composer,other
+yumrepo installs and configures epel elff dell and vmware yum repositories,yum
+ant installs configures ant,other
+redis2 installs configures redis,redis
+simple iptables simple lwrp and recipe for managing iptables rules,iptables
+mariadb installs configures mariadb,mariadb
+ssh-keys creates authorized keys in user .ssh directory from a data bag encrypted data bag supported,ssh
+activemq installs activemq and sets it up as service,messaging
+application php deploys and configures php-based applications,php
+grafana installs configures grafana,monitoring
+magic shell installs configures command alias,other
+newrelic plugins installs new relic plugins,monitoring
+s3 file installs configures s3 file lwrp,cloud
+virtualbox installs virtualbox,virtualization
+stash installs configures atlassian stash,repository
+chef-splunk manage splunk enterprise or splunk universal forwarder,logging
+os x manage os x user defaults settings,other
+nrpe installs and configures nagios nrpe client,logging
+sphinx installs configures sphinx search engine,server
+squid installs configures squid as a simple caching proxy,proxy
+vagrant installs vagrant and provides a vagrant plugin lwrp for installing vagrant plugins,vagrant
+webpi installs configures the microsoft web platform installer webpi,webserver
+windows firewall configures firewall rules on windows,firewall
+xfs installs packages for working with xfs,file
+application java deploys and configures java-based applications,java
+artifact provides your cookbooks with the artifact deploy lwrp,other
+golang installs go programming language,go
+snmp installs configures snmp on redhat centos ubuntu debian,networking
+couchbase installs and configures couchbase server,nosql
+dsc experimental primitives to integrate with microsoft desired state configuration,utility
+god installs and configures god and provides a define for monitoring,monitoring
+lxc chef driven linux containers,container
+rails installs rails and provides a sample template for use with passenger,ruby
+s3fs mount one or more s3 buckets to the filesystem,cloud
+system installs configures system elements such as the hostname and timezone,timezone
+tmux installs tmux,utility
+curl installs configures curl,utility
+drush installs drush head,utility
+os-hardening installs configures security,security
+timezone-ii configure the system timezone on linux systems,timezone
+daemontools installs configures daemontools,file
+installs configures ffmpeg,utility
+gunicorn installs configures gunicorn,webserver
+kafka intalls and configures a kafka broker,messaging
+logwatch installs logwatch a nice log analyzer,logging
+mod security installs and configures mod security for apache2 or iis,security
+nexus installs configures nexus,development
+percona-install installs percona apt yum repostiory client and server,database
+ruby enterprise installs configures ruby-enterprise,ruby
+rubygems installs configures rubygems,ruby
+timezone configure the system timezone on debian or ubuntu,timezone
+backup installs configures backup,backup
+installs django,webserver
+jboss installs configures jboss,development
+mesos installs configures apache mesos,docker
+nginx conf installs configures nginx conf,nginx
+ossec installs configures ossec,security
+passenger enterprise installs and configures passenger under ruby enterprise edition with apache,webserver
+php5-fpm installs configures php5-fpm,php
+phpmyadmin installs configures phpmyadmin,php
+rails application installs configures rails application,ruby
+rundeck installs and configures rundeck 2.x,cloud
+yum-mysql-community installs configures yum-mysql-community,yum
+elasticsearch cluster elasticsearch a distributed full-text search database based on lucene you know for search,logging
+generic-users sets up user accounts,authentication
+hadoop cluster hadoop distributed massive-scale data processing framework store and analyze terabyte-scale datasets with ease,clustering
+mongodb-10gen installs configures mongodb-10gen,mongodb
+solr installs the solr search engine,server
+sshd installs configures sshd,ssh
+storm installs twitter s storm distributed computation system,distribute
+tar installs tar and two lwrps to manage remote tar packages,file
+aix custom resources useful for aix systems,system
+bundler installs bundler and provides recipes to bundle actions,sudo
+-solo-search data bag search for chef solo,server
+ganglia installs configures ganglia,monitoring
+icinga2 installs configures icinga 2,monitoring
+iptables-ng installs configures iptables-ng,iptables
+motd installs configures motd,testing
+partial search provides experimental interface to partial search api in chef software hosted chef for chef-client pre-12.0,chef
+ssl sets up ssl certs and keys from an encrypted data bag,ssl
+ssl certificate the main purpose of this cookbook is to make it easy for other cookbooks to support ssl,ssl
+windows network configures windows network interfaces,networking
+removes assorted operating system annoyances,other
+bootstrap configures rubygems-installed chef,ruby
+dhcp dhcp,networking
+dnsimple provides chef lwrp for automating dns configuration with dnsimple,dns
+hubot deploys and manages an instance of github s hubot,git
+jetty installs configures jetty,development
+locale installs configures locale,time
+oh-my-zsh installs configures oh-my-zsh,other
+phantomjs installs configures phantomjs,development
+postgis installs configures postgis postgresql extension,nosql
+wlp installs websphere application server liberty profile,server
+apache various apache server related resource provides lwrp,apache
+audit-cis chef audit-mode controls for cis benchmarks,security
+cassandra-dse installs configures apache cassandra,nosql
+deploy key manage deploy keys on github and bitbucket,git
+firefox installs mozilla firefox on multiple operating systems,browser
+htop installs htop,system
+hudson installs and configures hudson ci server slaves,delivery
+logstash forwarder installs configures logstash forwarder,logstash
+mercurial installs mercurial,versioncontrol
+-jobs installs the chef push jobs client,chef
+sqlite installs sqlite,sql
+ssh-hardening installs configures ssh,ssh
+statsd installs configures statsd,networking
+zenoss installs and configures zenoss and registers nodes as devices,monitoring
+apache zookeeper installs configures apache zookeeper,zookeeper
+azure installs and configures windows azure support for linux vms,cloud
+bind installs configures isc bind,bind
+chef gem provides proper chef gem resource support for chef versions 0.10.12,chef
+collectd installs and configures the collectd monitoring daemon,monitoring
+heartbeat installs but does not configure heartbeat,clustering
+keepalived installs and configures keepalived,webserver
+kibana lwrp installs configures kibana,logging
+metachef cluster orchestration -- coordinates discovery integration and decoupling of cookbooks,chef
+minitest-handler installs and configures minitest-chef-handler,chef
+monitor a cookbook for monitoring services using sensu a monitoring framework,monitoring
+mysql-chef gem provides the mysql chef gem resource,mysql
+network interfaces installs configures network on ubuntu and debian,networking
+oracle-fmw installs configures oracle fusion middleware 11g 12c,utility
+poise-python a chef cookbook for managing python installations,python
+selenium installs configures selenium,testing
+vmware-tools installs configures vmware-tools with a fugly bash script,virtualization
+yum-corporate configures repo file via attributes for internal corporate yum mirror,yum
+aix-base-setup configures aix with basic cli tools,system
+apache2-windows installs and configures apache on microsoft windows platforms,apache
+application wlp deploys and configures applications to websphere application server liberty profile,server
+aws-rds provides libraries resources and providers to configure and manage amazon relational database service amazon rds with the ec2 api,ec2
+capistrano installs capistrano gem and provides a define to set up deployment for an application,development
+chruby installs configures chruby,ruby
+clamav installs configures clamav,security
+compat resource chef 12.5 resources for chef 12.1-12.4,chef
+dovecot installs and configures dovecot open source imap and pop3 email server,email
+haproxy-ng modern resource-driven cookbook for managing haproxy,haproxy
+htpasswd provider for htpasswd,security
+java se installs oracle s java se jdk,java
+kitchen-jenkins set up a node to run test-kitchen in jenkins,jenkins
+microsoft azure lwrps for managing azure resources,cloud
+motd-tail updates motd.tail with chef roles,testing
+network interfaces v2 providers for configuring network on ubuntu rhel and windows,networking
+pdns installs configures pdns,dns
+phpunit installs configures phpunit,php
+smf a light weight resource provider lwrp for smf service management facility,other
+snort installs snort ids packages,networking
+sssd ldap sets up sssd for ldap on ubuntu and rhel systems,nosql
+stunnel installs configures stunnel,ssl
+yum-centos installs and configures the centos yum repositories,yum
+windows installs zabbix agent on windows hosts,zabbix
+zookeeper cluster zookeeper a distributed high-availability consistent datastore,zookeeper
+amazonec2tag chef lwrp for setting amazon web services ec2 tags,ec2
+apache kafka installs configures apache kafka 0.7.0,messaging
+apache vhosts helps to configure virtual hosts for apache2,apache
+artifactory installs configures artifactory,development
+berkshelf-api-server installs configures a berkshelf-api server,server
+confluence installs configures atlassian confluence,utility
+deis installs configures components of the deis paas,cloud
+firewalld installs configures firewalld,firewall
+flume flume reliable decoupled shipment of logs and data,logging
+freebsd handles freebsd ports setup,system
+graphite handler installs configures the chef graphite handler originally developed by ian meyer,graphite
+hbase cluster hbase a massively-scalable high-throughput datastore based on the hadoop hdfs,nosql
+hhvm installs configures hhvm,php
+icinga installs configures icinga,monitoring
+jboss7 installs configures jboss 7,development
+jira installs configures atlassian jira,development
+kvm installs configures tuning kvm,virtualization
+magento magento app stack,server
+monit-ng installs and configures monit,monitoring
+ms dotnet35 installs microsoft .net framework 3.5,system
+ms dotnet45 installs microsoft .net 4.5,system
+mysql2 chef gem provides the mysql 2 chef gem resource,mysql
+nginx-proxy nginx proxy,nginx
+nvm installs nvm the node version manager,nodejs
+packagecloud installs configures packagecloud.io repositories,repository
+rabbitmq chef installs the rabbitmq amqp broker for use on a chef server,rabbitmq
+redmine installs and configures redmine as a rails app in passenger apache2,webserver
+resque installs configures resque,redis
+samba installs configures samba,networking
+selinux policy manages selinux policy components,security
+splunk handler installs configures the chef exception reporting handler for splunk,logging
+sysstat installs configures sysstat,monitoring
+uwsgi installs configures uwsgi,server
+windows ad installs configures windows active directory,other
+windows-hostname sets hostname and fqdn of a windows node,other
+windows rdp installs configures windows rdp,other
+zlib installs zlib,file
+bag config provides helpers for optional data bag configuration,other
+beanstalkd installs configures beanstalkd,distribute
+boxstarter executes chocolatey packages windows updates provides several windows configuration commands and can run any adhoc powershell in a reboot resilient context,utility
+consul-template installs configures consul-template,consul
+crontab configures crontab,cron
+deployer installs configures a deployment user,authentication
+docker-registry installs and configures docker-registry,docker
+hbase installs configures hbase using a databag for configuration expects hadoop to be set up with the hadoop for hbase recipe,nosql
+learn chef iis installs and configures iis the w3svc and sets a basic home page,networking
+dotnet installs configures ms dotnet,other
+ms dotnet4 installs microsoft .net 4.0,other
+mysqld installs configures mysqld,mysql
+newrelic monitoring installs configures new relic monitoring,monitoring
+omnibus prepares a machine to be an omnibus builder,development
+owncloud installs and configures owncloud an open source personal cloud for data and file sync share and view,cloud
+packer installs configures packer,virtualization
+passenger installs passenger via rubygems explicity uses system-wide rvm if present,webserver
+perlbrew configures and installs perlbrew,runtime
+-dovecot installs and configures a mail server using postfix dovecot postfixadmin and spamassassin including amazon ses support,postfix
+postgresql91 installs and configures postgresql for clients or servers,postgresql
+postgresql lwrp installs and configures postgresql for clients or servers,postgresql
+putty installs configures putty a free implementation of telnet and ssh for windows and unix platforms along with an xterm terminal emulator,ssh
+pxe dust configures local bootstrapping and installing operating systems via pxe booting,utility
+ruby install installs configures ruby-install,ruby
+solrcloud installs configures apache solr,server
+systemd resource-driven chef cookbook for managing linux systems via systemd,utility
+wildfly installs configures wildfly,development
+wsus-client configures wsus client,system
+yum-ius installs and configures the ius community project yum repository,yum
+ack installs ack a utility for quickly performing recursive searches of directory trees of text files such as source code,file
+acl setup posix access control lists acls,networking
+ad builds an active directory domain controller,file
+apache spark a cookbook to install and configure apache spark,apache
+app installs configures a rails app,rails
+application nodejs deploys and configures node.js applications,nodejs
+auditd installs configures auditd,security
+bind9 installs configures bind9,bind
+cis benchmark applies the center for internet security s benchmarks at configuration recommendations level-i,security
+cpu manage cpu governor on linux,utility
+crowd installs configures atlassian crowd,authentication
+debian sets up debian repositories,repository
+etcd a fabulous new cookbook,clustering
+f5-bigip installs configures f5-icontrol,networking
+filesystem installs configures various filesystems,file
+github-deploys configures a user account with keys and authenticates with the github api,git
+hashicorp-vault application cookbook for installing and configuring vault,security
+hosts installs configures hosts,networking
+influxdb influxdb a timeseries database,database
+jenkins utils utilities for managing jenkins jobs with chef,jenkins
+jn sysctl configure set sysctl paramaters,utility
+learn chef httpd installs and configures package httpd and sets a basic home page,apache
+letsencrypt install free and trusted ssl tls certificates from let s encrypt,ssl
+libarchive a library cookbook for extracting archive files,file
+mcollective provides the mcollective orchestration framework,messaging
+minecraft installs configures minecraft server,other
+modules manage modules on linux,system
+msdeploy this cookbook provides support for using msdeploy inside chef cookbooks,server
+newrelic-sysmond setup new relic sysmond for server monitoring,monitoring
+oracle-xe installs oracle express edition,oracle
+packages installs list of packages from an attribute,packaging
+pacman updates package list for pacman and has lwrp for pacman groups,packaging
+pipeline installs configures a jenkins based chef delivery pipeline,jenkins
+piwik installs configures piwik,webserver
+poise helpers for writing extensible chef cookbooks,chef
+rails rvm installs configures rvm on rails,rails
+rbac allows delegation of service management to users with solaris role based access control rbac,authentication
+screen installs screen,ssh
+ssl-vault ssl key certificate storage in chef-vault,ssl
+tomcat latest installs and configures latest apache tomcat 6 or 7,tomcat
+trac installs configures trac,development
+unattended upgrades installs configures apt unattended upgrades,apt
+unbound manages unbound dns resolver,dns
+wsus-server installs wsus server,system
+x264 installs configures x264,utility
+zip installs zip and unzip,file
+authbind installs configures authbind and defines resources for managing authorization,authorization
+awscli defines a number of lwrp wrapper commands around the awscli command line script,aws
+backup-manager installs configures backup-manager,backup
+bamboo installs and configures bamboo,delivery
+beaver installs configures beaver,other
+blackfire installs and configures blackfire stack,development
+boost installs the boost c libraries,system
+ceph installs configures the ceph distributed filesystem,clustering
+chef-teamcity installs configures teamcity agent server,delivery
+chrome installs configures chrome browser,utility
+cpan cpan modules provider cpan client provider lwrp,development
+cygwin installs configures cygwin,utility
+deploy wrapper provides a definition that sets up an ssh key and ssh wrapper script for use with deploy or deploy revision resources,ssh
+drbd installs configures drbd,clustering
+elk setup elk logstash elasticsearch and kibana,logging
+emacs installs emacs,editor
+etckeeper installs configures etckeeper,git
+gecode installs gecode,development
+gluster installs and configures gluster servers and clients,clustering
+hostnames configures hostname and fqdn,networking
+iterm2 installs configures iterm2,utility
+jenkins-server this cookbook installs a complete jenkins server with plugins and is highly configurable with attributes in this cookbook,jenkins
+jpackage installs configures jpackage,packaging
+libvirt installs configures libvirt,virtualization
+libvpx installs configures libvpx,other
+limits configures limits,security
+logstash-forwarder installs and configures logstash-forwarder,logging
+man installs man-db,utility
+mosh installs mosh,ssh
+ms messagequeue installs microsoft message queueing service,messaging
+mysql ebs configures a mysql server to use an ebs volume for it s storage,mysql
+mysql-hardening installs and configures a secure mysql server,mysql
+mysql tuning tries to create mysql configuraiton better suited for your system,mysql
+nginx simplecgi provides simplecgi for nginx,nginx
+octopus installs configures and registers an octopus tentacle,utility
+openvas installs configures openvas,security
+oracle-instantclient installs the oracle instant client and sql plus,oracle
+php5 ppa installs configures php5 from ppa,php
+postgres installs configures postgres from sources optimized for smartos and ready for streaming replication,postgresql
+proftpd installs configures proftpd,server
+r installs configures r,runtime
+railsbox auto deploy rails app with rbenv nginx unicorn postgresql,rails
+razor project razor,other
+resource easier more powerful chef resources,chef
+ruby installer installs ruby,ruby
+s3cmd installs and configures s3cmd,cloud
+slack handler installs configures a chef handler for reporting results to a slack channel,development
+smartmontools installs configures smartmontools,utility
+splunkforwarder installs configures splunk forwarder,logging
+ssh-util lwrps for managing ssh known hosts and config files,ssh
+td-agent installs configures td-agent,logging
+thrift installs thrift from source,utility
+tomcat7 installs configures tomcat,tomcat
+winrm-config configures winrm service and client,utility
+xen spawn new vms from a base image using xen tools,virtualization
+xvfb installs configures xvfb as a service,server
+yum-erlang solutions installs configures yum-erlang solutions,yum
+yum-oracle configures yum repos on an oracle linux system,yum
+yum-repoforge installs and onfigures yum-repoforge aka rpmforge,yum
+yum-vmware-tools installs and configures vmware yum repositories,yum
+amazon dns manage amazon route 53 dns system,dns
+ambari installs configures ambari,development
+-sdk installs google android sdk,other
+apache-log-analysis analysis apache logs by logstash elasticsearch and kibana,logging
+apt-chef configures apt repository for chef software inc products,apt
+apt-asterisk installs configures apt docker vendor-specific repository,asterisk
+asterisk installs configures asterisk,utility
+atom installs configures the atom text editor,editor
+aufs installs configures aufs,file
+autoetchosts installs configures autoetchosts,utility
+aws security installs configures aws security group,cloud
+backup lwrp installs configures backup,backup
+bamboo-agent installs configures a bamboo agent,delivery
+boilerplate installs configures boilerplate,development
+cerner splunk installs configures splunk servers and forwarders,logging
+chef-mailcatcher installs configures mailcatcher,email
+chef-zero installs chef zero on pre-chef-zero included chef releases,chef
+client-rekey regenerates your client key,chef
+cloudfoundry installs configures cloudfoundry,cloud
+cloud foundry installs configures cloud foundry,cloud
+conf lwrp to manage configuration files,file
+diaspora installs configures diaspora,webserver
+discovery installs configures the discovery library,system
+dnsmasq installs and configures dnsmasq,dns
+dpkg autostart control service actions initialized from dpkg,packaging
+ec2-ami-tools installs configures ec2-ami-tools,ec2
+ec2-bundle-vol bundles and uploads a new ec2 ami from the running instance,ec2
+editor set the system-wide default editor,editor
+elixir manages an elixir installation,runtime
+exim4-light installs and configures exim4-light,messaging
+f5 lwrp to manage an f5 bigip load balancer,networking
+filezilla installs configures filezilla,server
+forever chef cookbook for running node apps using forever,nodejs
+gearman installs configures gearman job server,distribute
+gerrit installs configures gerrit,development
+gitolite installs gitolite,git
+hosts file provides managed hosts file,networking
+idea installs and configures intellij idea,development
+jenkinsstack installs configures jenkins stack,jenkins
+kickstart creates apache2 vhost and serves a kickstart file,cms
+kubernetes manipulate kubernetes resources,docker
+laravel installs and configures laravel and additional modules,development
+learn chef apache2 installs and configures package apache2 and sets a basic home page,apache
+linode collection of useful recipes for setting up linodes,cloud
+nginx vhost installs configures nginx vhost,nginx
+notepadplusplus installs configures notepad,editor
+now library cookbook providing special ordering method include recipe now,other
+nsclient installs configures nsclient using chocolatey,monitoring
+nxlog installs and configures nxlog ce on linux or windows,logging
+openstack library cookbook to interact with openstack clouds,openstack
+package installer installs updates system packages,packaging
+php-mcrypt installs configures the mcrypt module for php,php
+php-redis installs configures php-redis,php
+pm2 installs configures pm2,nodejs
+poise-service a chef cookbook for managing system services,utility
+reprepro installs configures reprepro for an apt repository,apt
+ruby lwrp installs chruby and ruby-build to build rubies from source,ruby
+ssh authorized keys creates ssh authorized keys files in user home directories,ssh
+ssh-wrapper lib to create an ssh wrapper script for use with git as git ssh,ssh
+x509 deploy a chef-managed certificate authority,authentication
+xymon installs configures xymon monitoring infrastructure,monitoring
+zabbix lwrp installs and configures zabbix agent and server with postgresql and nginx provides lwrp for creating and modifying zabbix objects,zabbix
+zfs manages solaris zfs,file
+amazon s3cmd installs configures amazon s3cmd,cloud
